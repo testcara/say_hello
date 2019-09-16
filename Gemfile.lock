@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    my_first_gem (0.1.0)
+    say_hello (0.1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -15,8 +15,8 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 1.16)
   minitest (~> 5.0)
-  my_first_gem!
   rake (~> 10.0)
+  say_hello!
 
 BUNDLED WITH
    1.16.6

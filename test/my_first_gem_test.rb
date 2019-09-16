@@ -1,8 +1,8 @@
 require "test_helper"
 
-class MyFirstGemTest < Minitest::Test
+class SayHelloTest < Minitest::Test
   def test_that_it_has_a_version_number
-    refute_nil ::MyFirstGem::VERSION
+    refute_nil ::SayHello::VERSION
   end
 
   def test_it_does_something_useful

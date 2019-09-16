@@ -1,17 +1,17 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "my_first_gem/version"
+require "say_hello/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "my_first_gem"
-  spec.version       = MyFirstGem::VERSION
+  spec.name          = "say_hello"
+  spec.version       = SayHello::VERSION
   spec.authors       = ["Cara Wang"]
   spec.email         = ["wlin@redhat.com"]
 
-  spec.summary       = "My first gem"
+  spec.summary       = "Say Hello"
   spec.description   = "Just can say hello to some one"
-  spec.homepage      = "https://github.com/testcara/my_first_gem"
+  spec.homepage      = "https://github.com/testcara/say_hello"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
 #    spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
 
     spec.metadata["homepage_uri"] = spec.homepage
-    spec.metadata["source_code_uri"] = "https://github.com/testcara/my_first_gem"
+    spec.metadata["source_code_uri"] = "https://github.com/testcara/say_hello"
 #    spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
   else
     raise "RubyGems 2.0 or newer is required to protect against " \
