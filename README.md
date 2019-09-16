@@ -21,6 +21,7 @@ Or install it yourself as:
     $ gem install say_hello
 
 ## Usage
+- Load the gem to use it
 ```
 [wlin@wlin ~]$ gem install say_hello
 Successfully installed say_hello-0.1
@@ -34,6 +35,15 @@ Done installing documentation for say_hello after 0 seconds
  => "Hello, Cara"
 2.2.4 :003 > SayHello.say_to('Cara Wang')
  => "Hello, Cara Wang"
+```
+- Use it from the command line directly
+```
+[wlin@wlin say_hello]$ gem install say_hello
+[wlin@wlin say_hello]$ say_hello
+Hello, My friend
+[wlin@wlin say_hello]$ say_hello test
+Hello, test
+
 ```
 
 ## Development

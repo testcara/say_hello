@@ -1,5 +1,5 @@
 class Hello
-  def self.say_to(n = "Cara")
+  def self.say_to(n = "My friend")
     'Hello, ' + n
   end
 end

@@ -1,0 +1,9 @@
+#!/bin/env ruby
+
+require 'say_hello/hello.rb'
+
+if ARGV.length < 1
+    puts Hello.say_to('My friend')
+else
+  puts Hello.say_to(ARGV.join(''))
+end
