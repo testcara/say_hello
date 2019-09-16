@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["wlin@redhat.com"]
 
   spec.summary       = "Say Hello"
-  spec.description   = "Just can say hello to some one"
+  spec.description   = "The first Gem example. The gem just can say hello to someone!"
   spec.homepage      = "https://github.com/testcara/say_hello"
   spec.license       = "MIT"
 

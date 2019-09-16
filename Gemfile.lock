@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    say_hello (0.1.0)
+    say_hello (0.1)
 
 GEM
   remote: https://rubygems.org/

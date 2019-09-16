@@ -21,8 +21,20 @@ Or install it yourself as:
     $ gem install say_hello
 
 ## Usage
-
-TODO: Write usage instructions here
+```
+[wlin@wlin ~]$ gem install say_hello
+Successfully installed say_hello-0.1
+Parsing documentation for say_hello-0.1
+Done installing documentation for say_hello after 0 seconds
+1 gem installed
+[wlin@wlin ~]$ irb
+2.2.4 :001 > require 'say_hello'
+ => true
+2.2.4 :002 > SayHello.say_to()
+ => "Hello, Cara"
+2.2.4 :003 > SayHello.say_to('Cara Wang')
+ => "Hello, Cara Wang"
+```
 
 ## Development
 
